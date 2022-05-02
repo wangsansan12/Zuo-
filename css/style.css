@@ -1,0 +1,47 @@
+body{
+	background-image: url("../Images/BeiJing.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.ZhuBiaoTi{
+	width: 280px;
+	height: 50px;
+	margin-left: 10%;
+	margin-top: 3rem;
+}
+.ZhuBiaoTiH1{
+	font-size: 4.5rem;
+}
+.NeiRong{
+	border-radius: 100px;
+	margin: 5% auto;
+	width: 80%;
+	height: 800px;
+	background-color: gray;
+	animation:BeiJingJianBian 6s infinite;
+	opacity: 30%;
+}
+@keyframes BeiJingJianBian{
+	0%{
+		background-color: rgba(255, 255, 255, 10);
+	}
+	50%{
+		background-color: rgba(205, 205, 205, 15);
+	}
+	100%{
+		background-color: rgba(255, 255, 255, 10);
+	}
+}
+.WenZiDiv{
+	width: 85%;
+	height: 80%;
+	margin: 0 auto;
+	font-size: 3rem;
+	text-align: center;
+}
+.WenZiA{
+	
+}
+.WenZiB{
+	
+}
